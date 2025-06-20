@@ -12,6 +12,14 @@ def evaluar_jugada(dado1, dado2):
     else:
         return f"La suma de tus dados es {suma_dados}. Parece una jugada ganadora"
     
+# Lanzamos los dados
+dado1, dado2 = lanzar_dados()
+
+# Evaluamos la jugada y guardamos el resultado
+resultado = evaluar_jugada(dado1, dado2)
+
+# Mostramos el resultado en pantalla
+print(resultado)
 
 
 """Crea una función (lanzar_dados) que arroje dos dados al azar y devuelva sus resultados:

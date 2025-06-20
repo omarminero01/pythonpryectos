@@ -15,6 +15,16 @@ def probar_suerte(moneda, lista):
         return lista
     
 
+# Lanzamos la moneda
+resultado_moneda = lanzar_moneda()
+
+# Probamos la suerte con la lista
+lista_resultado = probar_suerte(resultado_moneda, lista_numeros)
+
+# Mostramos el resultado final
+print("Resultado final de la lista:", lista_resultado)
+
+
 """ Crea una función (llamada lanzar_moneda) que devuelva el resultado de lanzar una moneda (al azar). 
 Dicha función debe poder devolver los resultados "Cara" o "Cruz", y no debe recibir argumentos para funcionar.
 
