@@ -4,6 +4,7 @@ import random
  
 def lanzar_moneda():
     resultado = random.choice(["Cara", "Cruz"])
+    print(resultado)
     return resultado
  
 def probar_suerte(moneda, lista):
