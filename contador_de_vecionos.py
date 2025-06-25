@@ -1,10 +1,10 @@
-def cero_vecinos(*arg):
+def cero_vecinos(*args):
 
     contador = 0 
 
     for  num in args:
         if args [contador] == 0 and args [contador +1] == 0:
-          return true
+          return True
 
         else:
           contador += 1
